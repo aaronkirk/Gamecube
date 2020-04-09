@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>&#9632; GameCube</title>
+	<!--############################-->
+	<!--##                        ##-->
+	<!--##       Aaron Kirk       ##-->
+	<!--##                        ##-->
+	<!--############################-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/site.css" />
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="js/site.js"></script>
+	<script src="js/json.js"></script>
+
+
+
+</head>
+<body>
+
+
+	<div id="wrapper">
+
+		<header id="main-header">
+			<div id="main-header-i">
+				<span id="hamburgerIconLeft" onclick="openNav()">&#9776;</span>
+				<svg class="svg-header" viewBox="0 -4 50 50">
+					<rect class="svg-animated svgShape" x="10" y="10" width="30" height="30" />
+					Sorry, your browser does not support inline SVG.
+				</svg>
+				<span id="header-text"><strong>GameCube</strong></span>
+				<span id="hamburgerIconRight" onclick="openNav()">&#9776;</span>
+			</div>
+
+		</header>
+
+		<div class="lid">&nbsp;</div>
+
+		<nav id="nav-menu">
+			<div id="nav-menu-i">
+				<a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+				<ul>
+					<li>
+						<a href="default.html">
+							<svg class="home-icon" viewBox="0 0 240 230">
+								<polygon points="10,110 120,10 230,110 218,125 120,40 22,125" />
+								<polygon points="40,220 40,125 120,55 200,125 200,220 140,220 140,150 100,150 100,220" />
+								<polygon points="160,20 200,20 200,100 160,65" />
+								Sorry, your browser does not support inline SVG.
+							</svg>
+						</a>
+					</li>
+					<li><a href="hardware.html">Hardware</a></li>
+					<li><a href="software.html">Software</a></li>
+					<li><a href="peripherals.html">Peripherals</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="lid">&nbsp;</div>
+
+		<div id="main-content-area" class="row">
+			<div id="main-content" class="col">
+				<section id="main-content-i">
+
+					<div>
+						<h2>Software</h2>
+					</div>
+
+					<br />
+
+
+				<!-- ######################################################################################## -->
+				<!-- Task 6. Include interactive pages created using HTML5 APIs to Embed media files in pages -->
+				<!-- ######################################################################################## -->
+					<div>
+						<video id="embeddedVideo" controls>
+							<source src="videos/GameCube Startup.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</div>
+
+					<br />
+
+					<p>
+						<h3>OS Startup Screen</h3>
+						Above is a recording of the video that plays when the GameCube console is turned on.
+					</p>
+
+					<br /><br />
+
+					<div>
+
+						<h3>Software Library</h3>
+
+						<p>
+							In its lifespan of 2001—2007, more than 600 games were released for the GameCube.
+						</p>
+						<p>
+							Nintendo is traditionally recognized for releasing innovative, first-party games, most notably from the Super Mario and The Legend of Zelda series. These first-party series continued on the GameCube and bolstered the console's popularity. As a publisher, Nintendo also focused on creating new franchises, such as Pikmin and Animal Crossing, and renewing some that skipped the Nintendo 64 platform, most notably the Metroid series with the release of Metroid Prime. The console also saw success with the critically acclaimed The Legend of Zelda: The Wind Waker and Super Mario Sunshine, and its best-selling game, Super Smash Bros. Melee, which sold 7 million copies worldwide. Though committed to its software library, however, Nintendo was still criticized for not featuring enough games during the console's launch window—a sentiment compounded by the release of Luigi's Mansion instead of a 3D Mario game.
+						</p>
+						<p>
+							Early in Nintendo's history, the company had achieved considerable success with third-party developer support on the Nintendo Entertainment System and Super NES. Competition from the Sega Genesis and Sony's PlayStation in the 1990s changed the market's landscape, however, and reduced Nintendo's ability to obtain exclusive, third-party support on the Nintendo 64. The console's cartridge-based media was also increasing the cost to manufacture software, as opposed to the cheaper, higher-capacity optical discs used by the PlayStation.
+						</p>
+						<p>
+							With the GameCube, Nintendo intended to reverse the trend as evidenced by the number of third-party games available at launch. The new optical disc format introduced with the GameCube increased the capacity significantly and reduced production costs. The strategy mostly worked. High-profile exclusives such as Star Wars Rogue Squadron II: Rogue Leader from Factor 5, Resident Evil 4 from Capcom, and Metal Gear Solid: The Twin Snakes from Konami were very successful. Sega, which focused on third-party development following the demise of its Dreamcast console, offered a vast amount of support for the GameCube porting old favourites over such as Crazy Taxi and Sonic Adventure 2. The company also started new franchises on the GameCube including Super Monkey Ball. Several third-party developers were contracted to work on new games for existing Nintendo franchises, including Star Fox Assault and Donkey Konga by Namco and Wario World from Treasure.
+						</p>
+						<p>
+							Some third-party developers, such as Ubisoft, THQ, Disney Interactive Studios, Humongous Entertainment and EA Sports, continued to release GameCube games well into 2007.
+						</p>
+
+					</div>
+
+					<br /><br />
+
+					<div>
+						<h3>Highest Selling GameCube Games</h3>
+					</div>
+
+					<div id="json-data">
+						&nbsp;
+					</div>
+
+				</section>
+			</div>
+
+			<div id="main-sidebar" class="col">
+				<aside id="main-sidebar-i">
+					<div>
+						<p><h3><em>Spin the Cubes</em></h3></p>
+
+						<p>Hover over the cubes below for some fun</p>
+
+						<div id="side-cube">
+							<div id="side-cube-i"></div>
+						</div>
+
+						<div id="side-cube">
+							<div id="side-cube-i"></div>
+						</div>
+
+						<div id="side-cube">
+							<div id="side-cube-i"></div>
+						</div>
+
+						<div id="side-cube">
+							<div id="side-cube-i"></div>
+						</div>
+
+						<div id="side-cube">
+							<div id="side-cube-i"></div>
+						</div>
+
+					</div>
+				</aside>
+			</div>
+		</div>
+
+		<div class="lid">&nbsp;</div>
+
+		<footer id="main-footer">
+			<div id="main-footer-i">
+				<h4>Aaron Kirk</h4>
+				<p>
+					<ul>
+						<li>Level 3 Programming in HTML5 with JavaScript and CSS3 (4520-635)</li>
+						<li>Assignment A - Part 1
+						<li>
+						<li>30/08/2019</li>
+						<br />
+						<li><a href="credit.html">Credit</a></li>
+					</ul>
+				</p>
+			</div>
+		</footer>
+
+
+
+	</div>
+
+
+</body>
+</html>
